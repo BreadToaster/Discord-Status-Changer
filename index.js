@@ -9,7 +9,7 @@ function statusnum() {
 
     client.user.setActivity(status[i], { // Sets current status
         type: "PLAYING", // STREAMING, PLAYING, LISTENING
-        url: ""
+        url: "" // Must be filled in or else it will not work
     });
 
   i++; // Adds to the counter
