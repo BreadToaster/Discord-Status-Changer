@@ -28,7 +28,7 @@ client.on('ready', () => {
 
         statusnum(); // Calls status change function
 
-    }, 8000) // I found 8000-10000 to work well with discord rate limits
+    }, 7000) // I found 7000-10000 to work well with discord rate limits
 
 });
 
