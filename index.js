@@ -8,7 +8,7 @@ const status = ['1', '2', '3']; // Array of status'
 function statusnum() {
 
     client.user.setActivity(status[i], { // Sets current status
-        type: "PLAYING", // STREAMING, PLAYING, LISTENING
+        type: "PLAYING" // STREAMING, PLAYING, LISTENING
     });
 
   i++; // Adds to the counter
